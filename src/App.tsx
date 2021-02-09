@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+
+/**
+ * Crie 3 componentes de páginas: Home, contato e portfolio
+    Nos seus componentes de página, use o Helmet para alterar o título da página
+    Crie rotas pra home, contato e portfolio.
+    Use essas rotas no componente Header
+    Crie o seu JSX e css, fique livre pra criar o SEU SITE ☺
+ * 
+ */
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
     </div>
   );
 }
